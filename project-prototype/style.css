@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    color: #202020;
+    color: #3d3d3d;
     font-family: Outfit, sans-serif;
     max-width: 800px;
     margin: 2em auto;
@@ -44,17 +44,31 @@ a:active {color: #8833cc;}
 nav {
     border: 1px solid #cecece;
     border-width: 1px 0;
-    padding: 0.5em 0;
+    padding: 2em 0em;
     margin: 0;
     background: #f0f0f0;
+    a:link {color: #8833cc;}
+    a:hover {color: white}
+    a:focus {color: #7722bb;}
+    a:active {color: #8833cc;}
 }
 
 nav a {
     text-decoration:none;
+    background-color: #dba8ca;
+    padding:10px 15px;
+    border-radius:5px;
 }
+    a:hover {color: white}
+    a:focus {color: #7722bb; background-color: white;}
 
 main h1,
 main h2,
 main p {
     margin: 1rem 0;
+}
+
+header {
+    position: sticky;
+    top:0:
 }
