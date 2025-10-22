@@ -1,0 +1,60 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">');
+
+/*
+ * Sets everyting to use `border-box` for calculating sizing.
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+ */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+html {
+    background-color: #f0f0f0;
+}
+
+body {
+    color: #202020;
+    font-family: Outfit, sans-serif;
+    max-width: 800px;
+    margin: 2em auto;
+}
+
+h1 {
+    font-weight: 100;
+    color: white;
+}
+
+header h1 {
+    font-size: 1.25em;
+    font-weight: 500;
+    background-image: url('images/istockphoto-1010833258-612x612.jpg');
+    background-position: 50% 50%;
+    background-size: 100%;
+    padding: 1em 1em 5em;
+}
+
+a:link {color: #8833cc;}
+a:visited {color: #aa55ee;}
+a:hover,
+a:focus {color: #7722bb;}
+a:active {color: #8833cc;}
+
+nav {
+    border: 1px solid #cecece;
+    border-width: 1px 0;
+    padding: 0.5em 0;
+    margin: 0;
+    background: #f0f0f0;
+}
+
+nav a {
+    text-decoration:none;
+}
+
+main h1,
+main h2,
+main p {
+    margin: 1rem 0;
+}
